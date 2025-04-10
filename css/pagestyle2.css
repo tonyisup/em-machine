@@ -1,0 +1,243 @@
+a:link {color: #ffffff; text-decoration: none; }
+a:active {color: #ffffff; text-decoration: none; }
+a:visited {color: #ffffff; text-decoration: none; }
+a:hover {color: #ffffff; text-decoration: underline; }
+
+html, body, #wrapper {
+   height:100%;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+#wrapper td {
+   vertical-align: middle;
+   
+}
+
+.firstLetter {
+	background-color: gray;
+	color: #FFF;
+	float: left;
+	font-size: 30px;
+	margin-right: 5px;
+	margin-top: 3px;
+	padding: 9px;
+	border-radius: 2px;
+	box-shadow: 0 0 5px -1px #999999;
+}
+
+.names{
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	color: white;
+	font-size:80%;
+}
+
+.credits{
+	line-height: 3px;
+}
+
+.connect{
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	color: white;
+	font-size:80%;
+	position: absolute;
+	left: 350px;
+	top: 0px
+}
+
+.buy{
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	color: white;
+	font-size:80%;
+	position: absolute;
+	left: 10px;
+	top: 0px
+}
+
+.bottom{
+	width: 550px;
+	height: 100px;
+	margin-left: auto;
+    	margin-right: auto;
+	position:relative;
+
+}
+
+.textbox{
+	width: 500px;
+	height: 500px;
+	overflow: auto;
+	position: relative;
+	top: 15px;
+	left: 15px;
+	padding: 10px;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	color: white;
+}
+
+.soundcloud{
+	width:300px;
+	height:18px;
+	align: center;
+	background-color: #3f6e82;
+	border-radius: 8px;
+	box-shadow: 0 0 5px -1px #999999;
+}
+
+#cover{
+	position:relative;
+	height:600px;
+	width:600px;
+	background-image: url("../img/pt2/cover.jpg");
+	background-repeat:no-repeat;
+}
+
+#page1{
+	position:relative;
+	height:600px;
+	width:600px;
+	background-image: url("../img/pt2/pg1.jpg");
+	background-repeat:no-repeat;
+}
+
+#page2{
+	position:relative;
+	height:600px;
+	width:600px;
+	background-image: url("../img/page_right.jpg");
+	background-repeat:no-repeat;
+}
+
+#page3{
+	position:relative;
+	height:600px;
+	width:600px;
+	background-image: url("../img/pt2/pg2.jpg");
+	background-repeat:no-repeat;
+}
+
+#page4{
+	position:relative;
+	height:600px;
+	width:600px;
+	background-image: url("../img/page_right.jpg");
+	background-repeat:no-repeat;
+}
+
+#page5{
+	position:relative;
+	height:600px;
+	width:600px;
+	background-image: url("../img/pt2/pg3.jpg");
+	background-repeat:no-repeat;
+}
+
+#page6{
+	position:relative;
+	height:600px;
+	width:600px;
+	background-image: url("../img/page_right.jpg");
+	background-repeat:no-repeat;
+}
+
+#page7{
+	position:relative;
+	height:600px;
+	width:600px;
+	background-image: url("../img/pt2/pg4.jpg");
+	background-repeat:no-repeat;
+}
+
+#page8{
+	position:relative;
+	height:600px;
+	width:600px;
+	background-image: url("../img/page_right.jpg");
+	background-repeat:no-repeat;
+}
+
+#page9{
+	position:relative;
+	height:600px;
+	width:600px;
+	background-image: url("../img/pt2/pg5.jpg");
+	background-repeat:no-repeat;
+}
+
+#page10{
+	position:relative;
+	height:600px;
+	width:600px;
+	background-image: url("../img/page_right.jpg");
+	background-repeat:no-repeat;
+}
+
+#page11{
+	position:relative;
+	height:600px;
+	width:600px;
+	background-image: url("../img/pt2/pg6.jpg");
+	background-repeat:no-repeat;
+}
+
+#page12{
+	position:relative;
+	height:600px;
+	width:600px;
+	background-image: url("../img/page_right.jpg");
+	background-repeat:no-repeat;
+}
+
+#page13{
+	position:relative;
+	height:600px;
+	width:600px;
+	background-image: url("../img/pt2/pg7.jpg");
+	background-repeat:no-repeat;
+}
+
+#page14{
+	position:relative;
+	height:600px;
+	width:600px;
+	background-image: url("../img/page_right.jpg");
+	background-repeat:no-repeat;
+}
+
+#back{
+	position:relative;
+	height:600px;
+	width:600px;
+	background-image: url("../img/page_back.jpg");
+	background-repeat:no-repeat;
+}
+
+
+
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    background: rgba(63,63,63,0.8); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background: rgba(120,120,120,0.8); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(120,120,120,0.4); 
+}
+
+
